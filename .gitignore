@@ -1,0 +1,41 @@
+# Deny everything by default. Only reviewed files below may be added.
+# To publish another config, review it and explicitly allow its full path.
+*
+
+!/.gitignore
+!/README.md
+!/.zshrc
+!/.vimrc
+!/.config/
+!/.config/alacritty/
+!/.config/alacritty/alacritty.toml
+!/.config/alacritty/rose_pine_moon.toml
+!/.config/kitty/
+!/.config/kitty/kitty.conf
+!/.config/kitty/themes/
+!/.config/kitty/themes/rose-pine-moon.conf
+!/.config/fastfetch/
+!/.config/fastfetch/config.jsonc
+!/.config/nvim/
+!/.config/nvim/init.lua
+!/.config/zed/
+!/.config/zed/settings.json
+!/.config/btop/
+!/.config/btop/btop.conf
+!/.config/btop/themes/
+!/.config/btop/themes/rose-pine-moon.theme
+!/.config/fontconfig/
+!/.config/fontconfig/fonts.conf
+!/.config/clangd/
+!/.config/clangd/config.yaml
+!/.config/gtk-3.0/
+!/.config/gtk-3.0/settings.ini
+!/.config/gtk-4.0/
+!/.config/gtk-4.0/settings.ini
+!/.local/
+!/.local/share/
+!/.local/share/color-schemes/
+!/.local/share/color-schemes/rose-pine-moon.colors
+
+# Personal Git identity and credential helper settings.
+/.gitconfig

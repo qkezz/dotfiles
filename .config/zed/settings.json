@@ -1,0 +1,95 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "proxy": "",
+  "use_system_window_tabs": false,
+  "status_bar": {
+    "active_language_button": true,
+    "cursor_position_button": true
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "search": {
+    "button": true
+  },
+  "debugger": {
+    "button": true
+  },
+  "preview_tabs": {
+    "enable_preview_from_project_panel": true,
+    "enable_preview_from_multibuffer": true,
+    "enabled": false
+  },
+  "tabs": {
+    "activate_on_close": "left_neighbour"
+  },
+  "disable_ai": false,
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_tab_bar_buttons": true,
+    "show_nav_history_buttons": false,
+    "show": true
+  },
+  "project_panel": {
+    "button": true,
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-6-astra",
+      "enable_thinking": true,
+      "effort": "low"
+    },
+    "sidebar_side": "right",
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "title_bar": {
+    "button_layout": "platform_default",
+    "show_onboarding_banner": false,
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_branch_name": true,
+    "show_project_items": false,
+    "show_menus": false,
+    "show_sign_in": false
+  },
+  "auto_update": false,
+  "terminal": {
+    "font_size": 15.0
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 15.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Rosé Pine Moon",
+  },
+}
